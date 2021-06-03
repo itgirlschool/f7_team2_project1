@@ -1,1 +1,29 @@
-/* Файл стилей для текста */
+@font-face {
+    font-family: TTHoves-Regular;
+    src: url(../fonts/TTHoves-Regular.ttf);
+}
+
+@font-face {
+    font-family: TTHoves-Medium;
+    src: url(../fonts//TTHoves-Medium.ttf);
+}
+
+@font-face {
+    font-family: TTHoves-Light;
+    src: url(../fonts/TTHoves-Light.ttf);
+}
+
+@font-face {
+    font-family: TTHoves-DemiBold;
+    src: url(../fonts/TTHoves-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: TTHoves-Bold;
+    src: url(../fonts/TTHoves-Bold.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplay;
+    src: url(../fonts/SFProDisplay-Black.ttf);
+}
