@@ -1,1 +1,19 @@
-/* Файл стилей для footer */
+.footer {
+    background-color: #2C2C2C;
+    color: #fff;
+}
+
+.footer-main {
+    padding: 3vw 11vw 3vw 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 6vw;
+}
+
+.footer-logo-img {
+    width: 100%;
+}
+
