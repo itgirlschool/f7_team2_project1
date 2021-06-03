@@ -10,13 +10,93 @@
     padding: 3vw 11vw 3vw 7vw;
     display: flex;
     justify-content: space-between;
-}
-
-.footer-logo {
-    width: 6vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-logo-img {
+    width: 6vw;
+}
+
+.footer-logo-img img {
     width: 100%;
 }
 
+.footer-heading {
+    font-size: 0.9vw;
+    letter-spacing: 0.05vw;
+    margin: 0 0 1.5vw 0;
+}
+
+.footer-menu {
+    padding: 0;
+}
+
+.footer-menu-item {
+    list-style-type: none;
+    padding-bottom: 1vw;
+}
+
+.footer-link {
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link:hover {
+    font-family: 'TTHoves-Bold';
+}
+
+.footer-contact {
+    width: 14.5vw;
+    display: flex;
+    align-items: baseline;
+}
+
+.contact-icon {
+    margin-right: 1.2vw;
+    width: 0.7vw;
+}
+
+.contact-icon img {
+    width: 100%;
+}
+
+.cell, .envelope {
+    width: 0.8vw;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 0.73vw;
+}
+
+.footer-address {
+    margin-bottom: 3vw;
+}
+
+.footer-cell {
+    padding-bottom: 1vw;
+}
+
+.icons {
+    display: flex;
+    align-items: end;
+}
+
+.social-icon {
+    margin-right: 2.5vw;
+    height: 1.2vw;
+}
+
+.social-icon img {
+    height: 100%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.7vw;
+    font-family: "OpenSans-Regular";
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0;
+    padding: 1vw 0;
+}
