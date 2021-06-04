@@ -1,1 +1,6 @@
 /* Файл стилей для landing  */
+
+.container-tasks {
+    display: flex;
+    justify-content: space-between;
+}
