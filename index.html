@@ -18,7 +18,7 @@
     <div class="container-main_page">
 
         <!--info: company name, front image, slider -->
-        <div class="container-info">
+        <section class="container-info">
             <div class="container-info_text">
                 <div class="info-name">PROJECT NURTOWN</div>
                 <div class="button-left">left<img src="#">
@@ -41,36 +41,37 @@
                     <button>ВЗГЛЯНУТЬ <img src="#"> <!--image-main_icon_arrow-right--></button>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- closing the first section-->
 
         <!--starting section about-->
 
-        <div class="container-about">
+        <section class="container-about">
 
             <div class="container-about_images">
-                <img src="./assets/images/Rectangle 8.svg" alt="">
-                <img src="./assets/images/Rectangle 10.svg" alt="">
-                <img src="./assets/images/Rectangle 9.svg" alt="">
+                <div class="images_left">"<img src="./assets/images/Rectangle 8.svg" alt="">
+                    <img src="./assets/images/Rectangle 10.svg" alt="">
+                    <img src="./assets/images/Rectangle 9.svg" alt="">
+                </div>
+                <div class="container-about_text">
+                    <h1>О компании</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <button>ЧИТАТЬ<img src="#"> <!--image-main_icon_arrow-right--></button>
+                </div>
             </div>
-            <div class="container-about_text">
-                <h1>О компании</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                <button>ЧИТАТЬ<img src="#"> <!--image-main_icon_arrow-right--></button>
-            </div>
-        </div>
+        </section>
         <!--closing section About>-->
 
 
         <!--starting section Tasks-->
 
-        <div class="container-tasks">
+        <section class="container-tasks">
             <h1>Основные задачи</h1>
             <div class="container-tasks_one">
                 <img src="./assets/images/1.svg">
                 <!--1-->
-                <p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
+                <p> Создание комфортных условий и повышение качества обслуживания клиентов</p>
             </div>
             <div class="container-tasks_two">
                 <img src="./assets/images/2.svg">
@@ -78,14 +79,14 @@
                 <p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
             </div>
 
-        </div>
+        </section>
 
         <!--closing section tasks>-->
 
         <!--starting section Projects-->
 
 
-        <div class="container-projects">
+        <section class="container-projects">
             <h1>Наши проекты</h1>
             <div class="container_projects-slider">
                 <img src="./assets/images/Rectangle 12.svg" alt="">
@@ -102,49 +103,45 @@
             <div class="container-buttom_dark">
                 <button>ВСЕ ПРОЕКТЫ<img src="#"> <!--image-main_icon_arrow-right--></button>
             </div>
-        </div>
+        </section>
 
         <!--closing section tasks>-->
 
         <!--starting section contact-us-->
-        <h1>Связаться с нами</h1>
-        <div class="container-contact">
-            <div class="container-contact_form">
-                <form>
-                    <label>
-                        Имя
-                        <input type="text">
-                    </label>
-                    <label>
-                        Номер телефона*
-                        <input type="text">
-                    </label>
-                    <label>
-                        E-mail*
-                        <input type="email">
-                    </label>
-                    <label>
-                        Интересующий товар/услуга
-                        <input type="text"> 
-                    </label>
-                    <label>
-                        Сообщение*
-                        <textarea></textarea>
-                    </label>
-                </form>
-            </div>
-            <div class="container-contact_image">
-                <img src="./assets/images/image 12.svg" alt="handsome guy image">
-                <!--handsome guy image-->
+        <section class="container-contact">
+            <h1>Связаться с нами</h1>
+            <div class="container-contact_inner">
+                <div class="container-contact_form">
+                    <form>
+                        <div>
+                            <input type="text" placeholder="Имя">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Номер телефона*">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="E-mail*">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Интересующий товар/услуга">
+                        </div>
+                        <div class="textarea">
+                            <textarea placeholder="Сообщение*"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="container-contact_image">
+                    <img src="./assets/images/image 12.svg" alt="handsome guy image">
+                    <!--handsome guy image-->
+                </div>
             </div>
             <div class="container-button_dark">
                 <div class="confirmation">
-                    <!--insert checkmark-->Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+                    <input type="checkbox">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
                 </div>
                 <button>ОТПРАВИТЬ<img src="#" alt=""><!--image-main_icon_arrow-right--></button>
             </div>
-
-        </div>
+        </section>
 
 
 
