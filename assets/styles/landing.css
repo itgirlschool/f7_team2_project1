@@ -1,6 +1,51 @@
 /* Файл стилей для landing  */
 
-.container-tasks {
+
+/* about*/
+
+.container-about {
     display: flex;
     justify-content: space-between;
 }
+
+.container-about_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* finished about*/
+
+
+/* tasks*/
+
+.container-tasks,
+.container-tasks_one,
+.container-tasks_two {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+p {
+    margin-left: 55px;
+}
+
+
+/* finished tasks*/
+
+
+/* contact*/
+
+.container-contact_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-contact_form {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* finished contact*/
