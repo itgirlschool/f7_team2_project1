@@ -1,16 +1,67 @@
 /* Файл стилей для landing  */
 
+.container-main_page {
+    width: 80%;
+    margin: 10%;
+}
 
-/* about*/
 
-.container-about {
+/* info*/
+
+.container-info {
     display: flex;
     justify-content: space-between;
 }
 
-.container-about_images {
+
+/* about*/
+
+.container-main {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.about_inner {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+    background-color: #fafafa;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.image3 {
+    margin-top: 35px;
+    padding: 0px;
+}
+
+.image2 {
+    padding-left: 0;
+    margin-left: -15px;
+    display: flex;
+    align-self: center;
+}
+
+.image1 {
+    margin-left: 5vw;
+}
+
+.about_text {
+    padding-left: 0;
+    margin-left: -25px;
+    height: 40.5vh;
+    padding-right: 10vw;
+}
+
+.btn_light {
+    border: none;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    background-color: #ffffff;
+    margin-bottom: 0;
 }
 
 
@@ -19,16 +70,42 @@
 
 /* tasks*/
 
-.container-tasks,
+.container-tasks_inner {
+    height: 20vh;
+    margin-top: 5vh;
+}
+
+.container-tasks_inner,
 .container-tasks_one,
 .container-tasks_two {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    flex-wrap: nowrap;
 }
 
-p {
-    margin-left: 55px;
+.container-tasks_one {
+    width: 35vw;
+}
+
+.container-tasks_two {
+    width: 40vw;
+}
+
+.container-tasks_two {
+    margin-left: 20vw;
+}
+
+.tasks_text {
+    text-decoration: #333333;
+    padding-left: 1vw;
+    max-width: 18vw;
+    align-content: stretch;
+    font-size: 1rem;
+    line-height: 3vh;
+}
+
+.container-tasks_inner img {
+    height: 17vh;
 }
 
 
