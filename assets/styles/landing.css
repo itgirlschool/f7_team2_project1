@@ -55,13 +55,11 @@
 }
 
 .btn_light {
+    display: flex;
+    align-self: flex-end;
     border: none;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+    padding: 2.5vh 5vw;
     background-color: #ffffff;
-    margin-bottom: 0;
 }
 
 
