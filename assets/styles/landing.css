@@ -1,8 +1,12 @@
 /* Файл стилей для landing  */
 
-.container-main_page {
-    width: 80%;
-    margin: 10%;
+.container-main {
+    max-width: 80vw;
+    margin: auto;
+}
+
+section {
+    margin: 50px;
 }
 
 
@@ -16,52 +20,103 @@
 
 /* about*/
 
-.container-main {
-    max-width: 80vw;
-    margin: auto;
-}
-
 .about_inner {
     display: flex;
-    flex-wrap: nowrap;
-    margin-top: 6vh;
-    margin-bottom: 10vh;
-    background-color: #fafafa;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 60vh;
+    margin-top: 5%;
+    background-color: #f3f3f3;
 }
 
-.image3 {
-    margin-top: 35px;
-    padding: 0px;
-}
-
-.image2 {
-    padding-left: 0;
-    margin-left: -15px;
+.about_images13 {
     display: flex;
-    align-self: center;
+    flex-flow: column wrap;
+    width: 20%;
+    margin-left: 10%;
 }
 
-.image1 {
-    margin-left: 5vw;
+.image13 {
+    margin-top: 20%;
+}
+
+.about_right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 70%;
 }
 
 .about_text {
-    padding-left: 0;
-    margin-left: -25px;
-    height: 40.5vh;
-    padding-right: 10vw;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -5%;
+}
+
+.text_header {
+    margin-top: 0;
 }
 
 .btn_light {
-    border: none;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+    align-self: flex-start;
     background-color: #ffffff;
-    margin-bottom: 0;
+    border: none;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+
+.btn_arrow_right {
+    margin-bottom: -5px;
+}
+
+@media all and (min-width: 326px) and (max-width: 1200px) {
+    .about_inner {
+        display: flex;
+        flex-flow: column wrap;
+        width: 94%;
+        height: 100%;
+        justify-content: flex-start;
+    }
+    .about_right {
+        height: 40%;
+        width: 100%;
+        margin-left: -10%;
+    }
+    .image2 {
+        display: none;
+    }
+    .about_text {
+        width: 60%;
+        margin-left: 5px;
+        justify-content: flex-start;
+    }
+    .image13 {
+        width: 70vw;
+        margin-left: -50%;
+    }
+}
+
+@media all and (max-width: 325px) {
+    .image13 {
+        display: none;
+    }
+    .image2 {
+        display: none;
+    }
+    .about_right {
+        height: 100%;
+        width: 80vw;
+    }
+    .about_inner {
+        height: 100%;
+    }
+    .btn_light {
+        margin-left: -50%;
+    }
 }
 
 
@@ -71,57 +126,219 @@
 /* tasks*/
 
 .container-tasks_inner {
-    height: 20vh;
-    margin-top: 5vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-.container-tasks_inner,
 .container-tasks_one,
 .container-tasks_two {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.container-tasks_one {
-    width: 35vw;
-}
-
-.container-tasks_two {
-    width: 40vw;
-}
-
-.container-tasks_two {
-    margin-left: 20vw;
+    flex-flow: row wrap;
+    width: 30%;
 }
 
 .tasks_text {
-    text-decoration: #333333;
-    padding-left: 1vw;
-    max-width: 18vw;
-    align-content: stretch;
-    font-size: 1rem;
-    line-height: 3vh;
+    display: flex;
+    align-self: center;
+    width: 50%;
+    margin: auto;
 }
 
-.container-tasks_inner img {
-    height: 17vh;
+@media all and (max-width: 1200px) {
+    .container-tasks_inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80vw;
+    }
+    .container-tasks_one,
+    .container-tasks_two {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .tasks_text {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        width: 80vw;
+        margin: 10px;
+    }
 }
 
 
 /* finished tasks*/
 
 
+/*projects*/
+
+.container-main {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container_projects-images {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.projects_row-1,
+.projects_row-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.insidephoto {
+    position: absolute;
+    color: white;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 64px;
+}
+
+.seethroughbtn {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 70px;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+#project_img {
+    position: relative;
+}
+
+#project_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn_dark {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    margin-top: 20px;
+    float: right;
+}
+
+.btn_arrow_right {
+    margin-bottom: -5px;
+}
+
+@media all and (max-width: 1200px) {
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        margin-top: 40%;
+    }
+    .projects_row-1,
+    .projects_row-2 {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: tomato;
+    }
+    .container_projects-images {
+        width: 80%;
+    }
+    #project_img {
+        width: 100%;
+    }
+    #project_img img {
+        width: 100%
+    }
+    .insidephoto {
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .seethroughbtn {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .container-main {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+
+/* finished projects*/
+
+
 /* contact*/
+
+.container-contact {
+    margin-top: 30px;
+}
 
 .container-contact_inner {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
+    height: 45vh;
 }
 
 .container-contact_form {
-    width: 100%;
-    margin-top: 10px;
+    flex: 1;
+}
+
+.form_input {
+    margin-bottom: 10px;
+}
+
+.input,
+.input_textarea {
+    background-color: #f3f3f3;
+    border: none;
+    width: 90%;
+    padding: 15px;
+}
+
+.input_textarea {
+    resize: none;
+    height: 11vh;
+}
+
+.btn_dark_two {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    margin-top: 20px;
+}
+
+.btn_arrow_right {
+    margin-bottom: -5px;
+}
+
+@media all and (max-width: 800px) {
+    .container-contact {
+        max-width: 80vw;
+    }
+    .container-contact_image {
+        display: none;
+    }
+    .input,
+    .input_textarea {
+        width: 75%;
+        padding: 5px;
+        margin-left: 2px;
+    }
 }
 
 
