@@ -5,10 +5,42 @@
     margin: auto;
 }
 
+.name {
+    font-family: TTHoves-Light;
+    color: #BDBDBD;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.name_two {
+    font-family: TTHoves-DemiBold;
+    font-size: 3.5rem;
+    color: #333333;
+    font-weight: bolder;
+}
+
 .container_contact-info {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+h3 {
+    font-family: TTHoves-DemiBold;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: TTHoves-DemiBold;
+    font-style: normal;
+    font-size: 1rem;
+    color: #333333;
+    font-weight: lighter;
 }
 
 .btn_dark_two {
