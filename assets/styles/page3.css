@@ -1,1 +1,119 @@
 /* Файл стилей для page3  */
+.main {
+    height: 100vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+}
+
+.h_block {
+    font-family: TTHoves-Light;
+    font-style: normal;
+    color: #BDBDBD;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 20px;
+}
+
+h1 {
+    font-family: TTHoves-Light;
+    font-weight: 300;
+    color: #BDBDBD;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.h1part2 {
+    font-family: TTHoves-DemiBold;
+    color: #333333;
+}
+
+hr {
+    background: #F2F2F2;
+    margin: 30px;
+}
+
+.text {
+    font-family: TTHoves-Light;
+    font-style: normal;
+    color: #000000;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.block_part {
+    background: #FBFBFB;
+}
+
+.btn {
+    margin: 50px;
+}
+
+.page_number {
+    margin-top: 71px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers {
+    font-family: TTHoves-Regular;
+    font-size: 1.3em;
+}
+
+#five {
+    color: #BDBDBD;
+}
+
+.pin {
+    color: #BDBDBD;
+}
+
+.btn1 {
+    background-color: white;
+    border: 1px solid #e7e7e7;
+}
+
+.btn2 {
+    background-color: #F9F9F9;
+    border: 1px solid #e7e7e7;
+}
+
+@media screen and (min-width: 600px) {
+    .main {
+        height: 100vh;
+        max-width: 80vw;
+        margin: auto;
+    }
+
+    .block {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main {
+        height: 30vh;
+    }
+
+    .block_part {
+        height: 30vh;
+    }
+
+}
