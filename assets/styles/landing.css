@@ -16,31 +16,25 @@
                 justify-content: space-between;
             }
             
-            .container_info-image {
-                margin-right: -5vw;
-            }
-            
             .info_company {
                 display: flex;
                 flex-direction: column;
-                margin-top: 30vh;
-            }
-            
-            .i-image {
-                width: 50vw;
-                height: 80vh;
+                margin-top: 15vh;
             }
             
             .name {
                 font-family: TTHoves-Light;
                 color: #BDBDBD;
                 font-size: 3.5rem;
+                font-weight: lighter;
                 margin: 0;
             }
             
             .name_two {
                 font-family: TTHoves-DemiBold;
+                font-size: 3.5rem;
                 color: #333333;
+                font-weight: bolder;
             }
             
             .info_btn1,
@@ -56,19 +50,47 @@
             
             .numbers {
                 font-family: TTHoves-Regular;
-                font-size: 1.3em;
+                font-size: 2vh;
             }
             
             .page {
                 color: #BDBDBD;
                 font-family: TTHoves-Regular;
-                font-size: 1.3em;
+                font-size: 1.5rem;
             }
             
-            .info-btn {
-                margin-top: -7vh;
-                margin-left: 5vw;
+            .i-image {
+                width: 40vw;
+                height: 80vh;
+                display: flex;
+                justify-content: flex-end;
+            }
+            
+            .container_info-image {
+                float: right;
+                margin-top: 0;
+            }
+            
+            .main_btn_light {
+                color: #333333;
+                background-color: #ffffff;
+                border: none;
+                padding-top: 1vh;
+                padding-left: 5vw;
+                padding-bottom: 2vh;
+                padding-right: 5vw;
+                margin-top: -50px;
+                margin-left: 15px;
                 position: absolute;
+            }
+            
+            @media all and (max-width: 990px) {
+                .container_info-image {
+                    display: none;
+                }
+                .page_number {
+                    display: none;
+                }
             }
             /* about*/
             
@@ -292,6 +314,10 @@
                 height: 300px;
             }
             
+            .insidephoto {
+                font-size: 200%;
+            }
+            
             @media all and (min-width: 470px) and (max-width: 898px) {
                 .projects_row-1 {
                     display: flex;
@@ -347,7 +373,7 @@
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-between;
-                height: 45vh;
+                height: 60vh;
             }
             
             .container-contact_form {
