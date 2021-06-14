@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./assets/styles/landing.css">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
     <link rel="stylesheet" href=".assets/fonts/TTHoves-Regular.ttf">
     <title>Project Nurton</title>
 </head>
@@ -17,6 +19,17 @@
 
 
     <div class="container-main">
+        <header>
+            <nav>
+                <img class="logo" src="./assets/images/logo.svg" alt="the site logo" />
+                <a class="nav_name" href="./index.html">ГЛАВНАЯ</a>
+                <a class="nav_name" href="./page2.html">ГАЛЕРЕЯ</a>
+                <a class="nav_name" href="./page3.html">ПРОЕКТЫ</a>
+                <a class="nav_name" href="./page5.html">СЕРТИФИКАТЫ</a>
+                <a class="nav_name line" href="./page6.html">КОНТАКТЫ</a>
+            </nav>
+        </header>
+
 
         <section class="info">
             <div class="info_info">
@@ -42,12 +55,12 @@
                 </div>
                 <div class="container_info-image">
 
-                    <div class="info-image"> <img class="i-image" src="./assets/images/Rectangle6.svg"> </div>
-                    <div class="info-btn">
+                    <div class="info-image"> <img class="i-image" src="./assets/images/Rectangle6.svg">
                         <a href="#" class="main_btn">
-                            <button class="btn_light">ВЗГЛЯНУТЬ<img src="./assets/icons/arrow-2-right-long.svg" class="btn_arrow_right" alt="arrow"></button>
+                            <button class="main_btn_light">ВЗГЛЯНУТЬ<img src="./assets/icons/arrow-2-right-long.svg" class="btn_arrow_right" alt="arrow"></button>
                         </a>
                     </div>
+
                 </div>
             </div>
 
@@ -82,7 +95,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                             specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
-                        <button class="btn_light">ЧИТАТЬ<img src="./assets/icons/arrow-2-right-long.svg" class="btn_arrow_right" alt="arrow"> </button>
+                        <a href="./page3.html"><button class="btn_light">ЧИТАТЬ<img src="./assets/icons/arrow-2-right-long.svg" class="btn_arrow_right" alt="arrow"> </button></a>
                     </div>
                 </div>
             </div>
@@ -139,7 +152,7 @@
                         <div class="text_button">
                             <h1 class="insidephoto">ДОСУГОВЫЙ <br> ЦЕНТР
                             </h1>
-                            <button class="seethroughbtn">ПОДРОБНЕЕ<img class="btn_arrow_right" src="./assets/icons/arrow-2-right-long_white.svg" alt="arrow"></button>
+                            <a href="./page4.html"><button class="seethroughbtn">ПОДРОБНЕЕ<img class="btn_arrow_right" src="./assets/icons/arrow-2-right-long_white.svg" alt="arrow"></button></a>
                         </div>
                     </div>
 
@@ -159,7 +172,7 @@
                 </div>
 
                 <div class="container-btn_dark">
-                    <button class="btn_dark">ВСЕ ПРОЕКТЫ<img class="btn_arrow_right" src="./assets/icons/arrow-2-right-long_white.svg" alt="arrow"> </button>
+                    <a href="./page2.html"> <button class="btn_dark">ВСЕ ПРОЕКТЫ<img class="btn_arrow_right" src="./assets/icons/arrow-2-right-long_white.svg" alt="arrow"> </button></a>
                 </div>
             </div>
         </section>
@@ -201,7 +214,7 @@
                         <div class="confirmation">
                             <input type="checkbox" class="myinput large"> Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
                         </div>
-                        <button class="btn_dark_two">ОТПРАВИТЬ<img src="./assets/icons/arrow-2-right-long_white.svg" alt="arrow" class="btn_arrow_right"></button>
+                        <a href="./page6.html"><button class="btn_dark_two">ОТПРАВИТЬ<img src="./assets/icons/arrow-2-right-long_white.svg" alt="arrow" class="btn_arrow_right"></button></a>
                     </div>
 
                 </div>
@@ -228,7 +241,67 @@
 
     <!-- space for footer -->
 
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-logo">
+                <div class="footer-logo-img">
+                    <img src="./assets/images/logo-footer.svg" alt="footer-logo">
+                </div>
+            </div>
+            <div class="footer-inform">
+                <h3 class="footer-heading">Информация</h3>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item footer-text"><a href="./index.html" class="footer-link">Главная</a></li>
+                    <li class="footer-menu-item footer-text"><a href="./page2.html" class="footer-link">Галерея</a></li>
+                    <li class="footer-menu-item footer-text"><a href="./page3.html" class="footer-link">Проекты</a></li>
+                    <li class="footer-menu-item footer-text"><a href="./page5.html" class="footer-link">Сертификаты</a></li>
+                    <li class="footer-menu-item footer-text"><a href="./page6.html" class="footer-link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-connect">
+                <h3 class="footer-heading">Контакты</h3>
+                <div class="footer-contact footer-address">
+                    <div class="contact-icon pin">
+                        <img src="./assets/icons/pin.svg" alt="pin">
+                    </div>
+                    <a class="footer-link footer-text" href="#">100000, Республика  Казахстан, <br /> г. Караганда, ул. Телевизионная 10</a>
+                </div>
+                <div class="footer-contact footer-cell">
+                    <div class="contact-icon cell">
+                        <img src="./assets/icons/cell.svg" alt="cell">
+                    </div>
+                    <a class="footer-link footer-text">+7 (701) 77 76 811</a>
+                </div>
+                <div class="footer-contact footer-envelope">
+                    <div class="contact-icon envelope">
+                        <img src="./assets/icons/envelope.svg" alt="envelope">
+                    </div>
+                    <a class="footer-link footer-text">Galym.sultanov</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h3 class="footer-heading">Социальные сети</h3>
+                <div class="icons">
+                    <div class="social-icon">
+                        <a href="#"><img src="./assets/icons/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="#"><img src="./assets/icons/twitter.svg" alt="twitter"></a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="#"><img src="./assets/icons/LinkedIn.svg" alt="LinkedIn"></a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="#"><img src="./assets/icons/Pinterest.svg" alt="pinterest"></a>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p class="copyright">© 2019 Digital Project. Все права защищены.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
