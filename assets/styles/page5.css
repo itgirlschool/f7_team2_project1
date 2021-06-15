@@ -2,11 +2,13 @@
 .main {
     height: 100vh;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 
 }
 .gallery {display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    justify-content: center;
+}
 h1 {
     font-family: TTHoves-Light;
     color: #BDBDBD;
