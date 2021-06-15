@@ -100,3 +100,57 @@
     margin: 0;
     padding: 1vw 0;
 }
+
+@media screen and (max-width: 770px) {
+    .footer-heading {
+        font-size: 2.5vw;
+        margin-top: 1.5vw;
+    }
+
+    .footer-menu-item {
+        padding: 2vw;
+    }
+
+    .footer-link {
+        font-size: 2vw;
+    }
+
+    .footer-main {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-logo-img {
+        margin: 2vw auto;
+        width: 15vw;
+    }
+
+    .footer-contact {
+        width: 100%;
+        justify-content: center;
+        padding: 2vw;
+        margin-left: -2vw;
+    }
+
+    .footer-address {
+        margin-bottom: 0;
+    }
+
+    .contact-icon {
+        width: 2vw;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .social-icon {
+        padding: 1vw;
+        height: 3vw;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 1.5vw;
+    }
+}
