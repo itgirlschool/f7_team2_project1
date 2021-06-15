@@ -40,3 +40,9 @@ h1 {
 .img-3 img{
     width: 100%;
 }
+
+@media (max-width: 770px) {
+    .img-2 {
+        display: block;
+    }
+}
