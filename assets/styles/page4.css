@@ -1,1 +1,74 @@
 /* Файл стилей для page4 */
+.main {
+    height: 100vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+h1 {
+    font-family: TTHoves-Light;
+    font-weight: 300;
+    color: #BDBDBD;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.h1part2 {
+    font-family: TTHoves-DemiBold;
+    color: #333333;
+}
+
+.certificate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.page_number {
+    margin: 71px 0 0 auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1 {
+    background-color: white;
+    border: 1px solid #e7e7e7;
+}
+
+.btn2 {
+    background-color: #F9F9F9;
+    border: 1px solid #e7e7e7;
+}
+
+.numbers {
+    font-family: TTHoves-Regular;
+    font-size: 1.3em;
+    margin-right: 2vw;
+}
+
+#five {
+    color: #BDBDBD;
+}
+
+#pin {
+    color: #BDBDBD;
+}
+
+@media screen and (max-width: 900px) {
+    .page_number {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .certificate {
+        display: block;
+        text-align: center;
+    }
+    .page_number {
+        width: 50%;
+        margin: 71px auto;
+    }
+}
