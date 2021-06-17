@@ -73,12 +73,14 @@ grid-template-columns: repeat(2, 1fr)
 h1 {
     font-family: TTHoves-Light;
     color: #BDBDBD;
-    font-size: 5vw;
+    font-size: 4em;
     margin: 0;
 }
-.h1part2 {
+h2 {
     font-family: TTHoves-DemiBold;
     color: #333333;
+    font-size: 4em;
+    margin-top: 0%;
 }
 
 p {

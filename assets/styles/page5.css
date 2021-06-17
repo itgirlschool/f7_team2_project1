@@ -1,25 +1,26 @@
 /* Файл стилей для page5 */
 .main {
-    height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
-
+    padding-left: 30px;
 }
 .gallery {display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 h1 {
     font-family: TTHoves-Light;
     color: #BDBDBD;
-    font-size: 5vw;
+    font-size: 4em;
     margin: 0;
 }
-.h1part2 {
+h2 {
     font-family: TTHoves-DemiBold;
     color: #333333;
+    font-size: 4em;
+    margin-top: 0%;
 }
-
 
 .images {
     width: 337px;
