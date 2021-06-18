@@ -22,20 +22,19 @@
                 margin-top: 15vh;
             }
             
-            .name {
+            h1 {
                 font-family: TTHoves-Light;
                 color: #BDBDBD;
-                font-size: 3.5rem;
-                font-weight: lighter;
+                font-size: 4em;
                 margin: 0;
             }
-            
-            .name_two {
-                font-family: TTHoves-DemiBold;
-                font-size: 3.5rem;
-                color: #333333;
-                font-weight: bolder;
+            h1 > span::before {
+                content: "\A";
+                white-space: pre;
             }
+            .part2{     font-family: TTHoves-DemiBold;
+                color: #333333;
+                font-size: 1em;}
             
             .info_btn1,
             .info_btn2 {

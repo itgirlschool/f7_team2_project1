@@ -69,19 +69,20 @@ grid-template-columns: repeat(2, 1fr)
     background-color: #F9F9F9;
     border: 1px solid #e7e7e7;
 }
-
 h1 {
     font-family: TTHoves-Light;
     color: #BDBDBD;
     font-size: 4em;
     margin: 0;
 }
-h2 {
-    font-family: TTHoves-DemiBold;
-    color: #333333;
-    font-size: 4em;
-    margin-top: 0%;
+h1 > span::before {
+    content: "\A";
+    white-space: pre;
 }
+.part2{     font-family: TTHoves-DemiBold;
+    color: #333333;
+    font-size: 1em;}
+
 
 p {
     font-family: TTHoves-Regular;

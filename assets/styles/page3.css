@@ -26,20 +26,17 @@
 
 h1 {
     font-family: TTHoves-Light;
-    font-weight: 300;
     color: #BDBDBD;
-    font-size: 4rem;
-    margin-top: 0;
+    font-size: 4em;
+    margin: 0;
 }
-
-.h1part1 {
-    margin-top: 100px;
+h1 > span::before {
+    content: "\A";
+    white-space: pre;
 }
-
-.h1part2 {
-    font-family: TTHoves-DemiBold;
+.part2{     font-family: TTHoves-DemiBold;
     color: #333333;
-}
+    font-size: 1em;}
 
 hr {
     background: #F2F2F2;

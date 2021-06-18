@@ -8,19 +8,19 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
 h1 {
     font-family: TTHoves-Light;
     color: #BDBDBD;
     font-size: 4em;
     margin: 0;
 }
-h2 {
-    font-family: TTHoves-DemiBold;
-    color: #333333;
-    font-size: 4em;
-    margin-top: 0%;
+h1 > span::before {
+    content: "\A";
+    white-space: pre;
 }
+.part2{     font-family: TTHoves-DemiBold;
+    color: #333333;
+    font-size: 1em;}
 
 .images {
     width: 337px;

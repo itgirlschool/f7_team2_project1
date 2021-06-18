@@ -6,17 +6,17 @@
 
 h1 {
     font-family: TTHoves-Light;
-    font-weight: 300;
     color: #BDBDBD;
-    font-size: 4rem;
+    font-size: 4em;
     margin: 0;
 }
-
-.h1part2 {
-    font-family: TTHoves-DemiBold;
-    color: #333333;
-    margin-bottom: 5vw;
+h1 > span::before {
+    content: "\A";
+    white-space: pre;
 }
+.part2{     font-family: TTHoves-DemiBold;
+    color: #333333;
+    font-size: 1em;}
 
 .img-1 img{
     width: 100%;
